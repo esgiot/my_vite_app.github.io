@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
-  base:'my_vite_app.github.io'
+  base:'/'
 })
